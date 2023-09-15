@@ -82,20 +82,39 @@ const Project = () => {
                                     <img src={project_info.img} alt="" className="rounded-lg" />
                                     <h3 className="text-xl my-4">{project_info.name}</h3>
                                     <div className="flex gap-3">
-                                        <a
+                                        {/* <a
                                             href={project_info.github_link}
                                             target="_blank"
                                             className="text-cyan-600 bg-gray-800 px-2 py-1 inline-block"
                                         >
                                             Github
+                                        </a> */}
+                                        <a
+                                            href={project_info.github_link}
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                            className="text-cyan-600 bg-gray-800 px-2 py-1 inline-block"
+                                        >
+                                            Github
                                         </a>
+
+                                        {/* <a
+                                            href={project_info.live_link}
+                                            target="_blank"
+                                            rel='nofollow'
+                                            className="text-cyan-600 bg-gray-800 px-2 py-1 inline-block"
+                                        >
+                                            Live Demo
+                                        </a> */}
                                         <a
                                             href={project_info.live_link}
                                             target="_blank"
+                                            rel='noreferrer noopener'
                                             className="text-cyan-600 bg-gray-800 px-2 py-1 inline-block"
                                         >
                                             Live Demo
                                         </a>
+
                                     </div>
                                 </div>
                             </SwiperSlide>
