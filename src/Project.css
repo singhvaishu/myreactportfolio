@@ -1,0 +1,10 @@
+/* Add this CSS to your project's stylesheet */
+.project-person-img {
+    transition: transform 0.3s ease;
+    /* Add a smooth transition effect */
+}
+
+.project-person-img:hover {
+    transform: scale(1.1);
+    /* Scale up the image on hover */
+}

@@ -1,0 +1,49 @@
+/* ProjectCarousel.css */
+.project-carousel {
+    display: flex;
+    overflow: hidden;
+    max-width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .project-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.5s ease;
+    width: 100%;
+    max-width: 300px;
+    box-sizing: border-box;
+    margin: 0 10px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+  }
+  
+  .project-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px 8px 0 0;
+  }
+  
+  .project-name {
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .project-links {
+    margin-top: 10px;
+  }
+  
+  .project-links a {
+    text-decoration: none;
+    color: #007BFF;
+    margin: 0 10px;
+  }
+  
+  .project-links a:hover {
+    text-decoration: underline;
+  }
+  
