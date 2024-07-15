@@ -4,9 +4,9 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 
 import project1 from "../assets/images/project-1.jpg";
 import project2 from "../assets/images/project-2.jpg";
-import project3 from "../assets/images/project-3.jpg";
-import project4 from "../assets/images/project-4.jpg";
-import project5 from "../assets/images/project-5.jpg";
+import project3 from "../assets/images/project-3.png";
+import project4 from "../assets/images/project-6.png";
+import project5 from "../assets/images/project-5.png";
 import project_person from "../assets/images/pimage1.png";
 import "swiper/css/bundle";
 
@@ -30,21 +30,22 @@ const Project = () => {
         },
         {
             img: project3,
-            name: "Temperature-Converter",
-            github_link: "https://github.com/singhvaishu/Temperature-Converter",
-            live_link: "https://singhvaishu.github.io/Temperature-Converter/",
+            name: "Skyscale",
+            github_link: "https://github.com/singhvaishu/SkyScale",
+            live_link: "https://skyscale.vercel.app/",
+        },
+
+        {
+            img: project5,
+            name: "Estateflow",
+            github_link: "https://github.com/singhvaishu/Estateflow",
+            live_link: "https://estateflow.vercel.app/",
         },
         {
             img: project4,
-            name: "Weather-app",
-            github_link: "https://github.com/singhvaishu/Weather-app",
-            live_link: "https://singhvaishu.github.io/Weather-app/",
-        },
-        {
-            img: project5,
-            name: "Analog-Clock",
-            github_link: "https://github.com/singhvaishu/Analog-Clock",
-            live_link: "https://singhvaishu.github.io/Analog-Clock/",
+            name: "Fitvibes",
+            github_link: "https://github.com/singhvaishu/Gymfitness",
+            live_link: "https://gymfitness-seven.vercel.app/",
         },
     ];
     return (
